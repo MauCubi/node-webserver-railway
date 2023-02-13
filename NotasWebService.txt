@@ -1,0 +1,17 @@
+npm -init -y
+
+express paquete npm para procesas request de forma facil
+
+
+npm install hbs -> Handlebars
+
+Si queres desplegar la app tenemos que tener en cuenta el puerto. 
+
+dontenv: Definir variables de entorno 
+    -> Crear .env 
+    -> require('dotenv').config(); 
+    -> const port = process.env.PORT;
+
+para desplegar la app tenemos que especificar el comando de arranque en package.json
+    -> "start": "node app.js"
+
